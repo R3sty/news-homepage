@@ -1,3 +1,8 @@
+@import "../../styles/main";
+
 .navbar {
     color: aqua;
+    font-family: $font-normal, 'Inter', sans-serif;
+    font-size: $font-size-40;
+    letter-spacing: $default;
 }
