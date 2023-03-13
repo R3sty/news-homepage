@@ -1,8 +1,17 @@
 @import "../../styles/main";
 
-.navbar {
-    color: aqua;
-    font-family: $font-normal, 'Inter', sans-serif;
-    font-size: $font-size-40;
-    letter-spacing: $default;
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: end;
+    padding: 8px;
 }
